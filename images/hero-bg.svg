@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2c3e50"/>
+      <stop offset="100%" stop-color="#1a1a1a"/>
+    </linearGradient>
+    <radialGradient id="ballGlow" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#e74c3c" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#e74c3c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="url(#bgGradient)"/>
+  
+  <!-- Court Lines -->
+  <path d="M200,200 L1720,200 L1720,880 L200,880 Z" fill="none" stroke="#3498db" stroke-width="4" opacity="0.2"/>
+  <circle cx="960" cy="540" r="300" fill="none" stroke="#3498db" stroke-width="4" opacity="0.2"/>
+  <line x1="960" y1="200" x2="960" y2="880" stroke="#3498db" stroke-width="4" opacity="0.2"/>
+  
+  <!-- Fantasy Elements - Stars -->
+  <circle cx="400" cy="300" r="3" fill="#fff" opacity="0.8"/>
+  <circle cx="500" cy="200" r="2" fill="#fff" opacity="0.6"/>
+  <circle cx="700" cy="250" r="4" fill="#fff" opacity="0.9"/>
+  <circle cx="350" cy="600" r="2" fill="#fff" opacity="0.7"/>
+  <circle cx="1200" cy="350" r="3" fill="#fff" opacity="0.8"/>
+  <circle cx="1500" cy="300" r="2" fill="#fff" opacity="0.6"/>
+  <circle cx="1600" cy="700" r="4" fill="#fff" opacity="0.9"/>
+  <circle cx="1400" cy="500" r="2" fill="#fff" opacity="0.7"/>
+  <circle cx="800" cy="800" r="3" fill="#fff" opacity="0.5"/>
+  <circle cx="1100" cy="750" r="2" fill="#fff" opacity="0.6"/>
+  
+  <!-- Glowing Circles -->
+  <circle cx="300" cy="300" r="100" fill="url(#ballGlow)" opacity="0.5"/>
+  <circle cx="1620" cy="780" r="120" fill="url(#ballGlow)" opacity="0.6"/>
+  <circle cx="960" cy="540" r="150" fill="url(#ballGlow)" opacity="0.4"/>
+  <circle cx="400" cy="780" r="80" fill="url(#ballGlow)" opacity="0.3"/>
+  <circle cx="1500" cy="350" r="100" fill="url(#ballGlow)" opacity="0.5"/>
+  
+  <!-- Basketballs -->
+  <g transform="translate(800, 650) scale(0.5)">
+    <circle cx="0" cy="0" r="80" fill="#e74c3c"/>
+    <path d="M0,-80 C0,-80 0,0 0,80 M-80,0 C-80,0 0,0 80,0" stroke="#2c3e50" stroke-width="4"/>
+    <path d="M-56.5685,-56.5685 C-56.5685,-56.5685 0,0 56.5685,56.5685 M56.5685,-56.5685 C56.5685,-56.5685 0,0 -56.5685,56.5685" stroke="#2c3e50" stroke-width="4"/>
+  </g>
+  
+  <g transform="translate(1300, 300) scale(0.4)">
+    <circle cx="0" cy="0" r="80" fill="#e74c3c"/>
+    <path d="M0,-80 C0,-80 0,0 0,80 M-80,0 C-80,0 0,0 80,0" stroke="#2c3e50" stroke-width="4"/>
+    <path d="M-56.5685,-56.5685 C-56.5685,-56.5685 0,0 56.5685,56.5685 M56.5685,-56.5685 C56.5685,-56.5685 0,0 -56.5685,56.5685" stroke="#2c3e50" stroke-width="4"/>
+  </g>
+  
+  <g transform="translate(500, 400) scale(0.3)">
+    <circle cx="0" cy="0" r="80" fill="#e74c3c"/>
+    <path d="M0,-80 C0,-80 0,0 0,80 M-80,0 C-80,0 0,0 80,0" stroke="#2c3e50" stroke-width="4"/>
+    <path d="M-56.5685,-56.5685 C-56.5685,-56.5685 0,0 56.5685,56.5685 M56.5685,-56.5685 C56.5685,-56.5685 0,0 -56.5685,56.5685" stroke="#2c3e50" stroke-width="4"/>
+  </g>
+  
+  <!-- Abstract Players -->
+  <path d="M350,500 C400,450 450,500 500,450 S550,350 600,400 S650,450 700,400" fill="none" stroke="#3498db" stroke-width="10" opacity="0.2"/>
+  <path d="M1350,350 C1400,300 1450,350 1500,300 S1550,200 1600,250 S1650,300 1700,250" fill="none" stroke="#3498db" stroke-width="10" opacity="0.2"/>
+  <path d="M850,750 C900,700 950,750 1000,700 S1050,600 1100,650 S1150,700 1200,650" fill="none" stroke="#3498db" stroke-width="10" opacity="0.2"/>
+
+  <!-- Fantasy Magic Trails -->
+  <path d="M500,600 Q700,500 900,600 T1300,600" fill="none" stroke="#e74c3c" stroke-width="3" opacity="0.3"/>
+  <path d="M400,400 Q600,300 800,400 T1200,400" fill="none" stroke="#e74c3c" stroke-width="3" opacity="0.3"/>
+  <path d="M600,700 Q800,600 1000,700 T1400,700" fill="none" stroke="#e74c3c" stroke-width="3" opacity="0.3"/>
+</svg> 

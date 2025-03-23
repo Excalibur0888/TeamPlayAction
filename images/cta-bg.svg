@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 600" width="1920" height="600">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3498db"/>
+      <stop offset="100%" stop-color="#2c3e50"/>
+    </linearGradient>
+    <linearGradient id="ballGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e74c3c"/>
+      <stop offset="100%" stop-color="#c0392b"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="url(#bgGradient)"/>
+  
+  <!-- Pattern Elements -->
+  <path d="M0,0 L1920,0 L1920,600 L0,600 Z" fill="#2c3e50" fill-opacity="0.3"/>
+  
+  <!-- Basketball Pattern -->
+  <g opacity="0.1">
+    <circle cx="200" cy="150" r="50" fill="url(#ballGradient)"/>
+    <path d="M200,100 C200,100 200,150 200,200 M150,150 C150,150 200,150 250,150" stroke="#fff" stroke-width="2"/>
+    <path d="M165,115 C165,115 200,150 235,185 M235,115 C235,115 200,150 165,185" stroke="#fff" stroke-width="2"/>
+  </g>
+  
+  <g opacity="0.1">
+    <circle cx="500" cy="400" r="70" fill="url(#ballGradient)"/>
+    <path d="M500,330 C500,330 500,400 500,470 M430,400 C430,400 500,400 570,400" stroke="#fff" stroke-width="2"/>
+    <path d="M450,350 C450,350 500,400 550,450 M550,350 C550,350 500,400 450,450" stroke="#fff" stroke-width="2"/>
+  </g>
+  
+  <g opacity="0.1">
+    <circle cx="900" cy="200" r="60" fill="url(#ballGradient)"/>
+    <path d="M900,140 C900,140 900,200 900,260 M840,200 C840,200 900,200 960,200" stroke="#fff" stroke-width="2"/>
+    <path d="M855,155 C855,155 900,200 945,245 M945,155 C945,155 900,200 855,245" stroke="#fff" stroke-width="2"/>
+  </g>
+  
+  <g opacity="0.1">
+    <circle cx="1300" cy="450" r="40" fill="url(#ballGradient)"/>
+    <path d="M1300,410 C1300,410 1300,450 1300,490 M1260,450 C1260,450 1300,450 1340,450" stroke="#fff" stroke-width="2"/>
+    <path d="M1270,420 C1270,420 1300,450 1330,480 M1330,420 C1330,420 1300,450 1270,480" stroke="#fff" stroke-width="2"/>
+  </g>
+  
+  <g opacity="0.1">
+    <circle cx="1700" cy="300" r="80" fill="url(#ballGradient)"/>
+    <path d="M1700,220 C1700,220 1700,300 1700,380 M1620,300 C1620,300 1700,300 1780,300" stroke="#fff" stroke-width="2"/>
+    <path d="M1645,245 C1645,245 1700,300 1755,355 M1755,245 C1755,245 1700,300 1645,355" stroke="#fff" stroke-width="2"/>
+  </g>
+  
+  <!-- Dynamic Lines -->
+  <path d="M0,150 Q480,100 960,150 T1920,100" fill="none" stroke="#fff" stroke-width="1" opacity="0.2"/>
+  <path d="M0,300 Q480,250 960,300 T1920,250" fill="none" stroke="#fff" stroke-width="1" opacity="0.2"/>
+  <path d="M0,450 Q480,400 960,450 T1920,400" fill="none" stroke="#fff" stroke-width="1" opacity="0.2"/>
+</svg> 
