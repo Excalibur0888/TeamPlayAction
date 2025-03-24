@@ -166,19 +166,14 @@ const updateNewsDates = () => {
   // Get current date
   const currentDate = new Date();
   
-  // Prepare dates for the news items (current date and dates for previous news)
+  // Prepare date format options
   const dateOptions = { year: 'numeric', month: 'long', day: 'numeric' };
   
-  // Update dates for all news items
-  newsDateElements.forEach((dateElement, index) => {
-    // Create a date that's 5*index days before the current date for older news
-    const newsDate = new Date(currentDate);
-    newsDate.setDate(currentDate.getDate() - (5 * index));
-    
-    // Format date as "Month Day, Year"
-    const formattedDate = newsDate.toLocaleDateString('en-US', dateOptions);
-    
-    // Update the element
+  // Format current date as "Month Day, Year"
+  const formattedDate = currentDate.toLocaleDateString('en-US', dateOptions);
+  
+  // Set today's date for all news items
+  newsDateElements.forEach(dateElement => {
     dateElement.textContent = formattedDate;
   });
 };

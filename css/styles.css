@@ -742,6 +742,7 @@ img {
   padding: 60px 0;
 }
 
+
 .contact-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -797,7 +798,7 @@ img {
 }
 
 .contact-text {
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: #fff;
 }
 
@@ -818,7 +819,7 @@ img {
 }
 
 .contact-text a:hover {
-	color: var(--accent-color);
+	color: #ff0;
 }
 
 .contact-info .social-links {
@@ -1098,10 +1099,6 @@ textarea.form-control {
 }
 
 @media (max-width: 768px) {
-  .header-container {
-    padding: 15px 0;
-  }
-  
   .menu-toggle {
     display: block;
   }
@@ -1427,7 +1424,7 @@ textarea.form-control {
   background-color: #e74c3c;
   top: 0;
   bottom: 0;
-  left: 20px;
+  left: 50%;
   margin-left: -3px;
   border-radius: 3px;
 }
@@ -1682,7 +1679,7 @@ textarea.form-control {
 
 .news-img {
   width: 100%;
-  height: 200px;
+  height: auto;
   object-fit: cover;
   background-color: #2c3e50;
   position: relative;
@@ -1945,12 +1942,12 @@ textarea.form-control {
 /* Responsive Styles for New Sections */
 @media (max-width: 992px) {
   .timeline-container::after {
-    left: 20px;
+    left: 31px;
   }
   
   .timeline-item {
     width: 100%;
-    padding-left: 60px;
+    padding-left: 70px;
     padding-right: 0;
   }
   
@@ -1959,7 +1956,7 @@ textarea.form-control {
   }
   
   .timeline-icon {
-    left: -5px !important;
+    left: 6px !important;
     right: auto !important;
     margin-top: 0;
     top: 16px;
@@ -2029,10 +2026,7 @@ textarea.form-control {
   .news-grid {
     max-width: 100%;
   }
-  
-  .news-img {
-    height: 180px;
-  }
+
   
   .news-content {
     padding: 15px;
@@ -2229,10 +2223,6 @@ textarea.form-control {
     max-width: 100%;
   }
   
-  .news-img {
-    height: 180px;
-  }
-  
   .news-content {
     padding: 15px;
   }
@@ -2246,4 +2236,22 @@ textarea.form-control {
     font-size: 0.95rem;
     margin-bottom: 15px;
   }
+}
+
+.footer-badges {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	margin: 1.5rem 0;
+}
+
+.footer-badges img {
+	height: 40px;
+	width: auto;
+	opacity: 0.8;
+	transition: opacity 0.3s ease;
+}
+
+.footer-badges img:hover {
+	opacity: 1;
 }
